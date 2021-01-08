@@ -1,0 +1,35 @@
+img{
+    float: initial;
+    width: 430px;
+}
+p{
+    padding-top: 10px;
+    text-align: left;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+img{
+    float: initial;
+    width: 430px;
+}
+.body {
+    background-color: red;
+    animation-name: bg-animate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+}
+@keyframes bg-animate {
+    0% {
+        background-color: skyblue;
+    }
+    25% {
+        background-color: slateblue;
+    }
+    50% {
+        background-color: wheat;
+    }
+    100% {
+        background-color: tomato;
+    }
+}
